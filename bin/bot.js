@@ -8,7 +8,7 @@ var settings = {
   name: 'WC Bot'
 };
 
-var bot = new Bot(settings);
+var token = process.env.BOT_API_KEY;
 
 bot.on('start', function() {
   bot.postMessageToChannel('wc-test', 'siema heniu!');
@@ -20,3 +20,4 @@ bot.on('message', function(msg) {
   });
   bot.postMessageToUser(user.name, "don't know", {as_user: true});
 });
+
