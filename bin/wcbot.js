@@ -2,10 +2,12 @@
 
 var WcBot = require('../lib/wcbot');
 
-var token = process.env.BOT_API_KEY;
-
 var wcbot = new WcBot({
-    token: token
+    token: process.env.BOT_API_KEY,
+    httpOptions: {
+      host: 'www.wp.pl',
+      path: '/'
+    }
 });
 
 wcbot.run();
