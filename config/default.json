@@ -1,5 +1,5 @@
 {
-    "host": "www.wp.pl",
-    "path": "/", 
+    "host": "hackathon-heroku-app.herokuapp.com",
+    "path": "/occupied",
     "token": "not_set"
 }
