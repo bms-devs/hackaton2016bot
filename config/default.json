@@ -3,3 +3,20 @@
     "path": "/occupied",
     "token": "not_set"
 }
+
+[{
+    "id": 1,
+    "name": "Łazienka 1 piętro",
+    "occupied": false,
+    "lastUpdateDate": null
+}, {
+    "id": 2,
+    "name": "Łazienka 2 piętro",
+    "occupied": true,
+    "lastUpdateDate": null
+}, {
+    "id": 3,
+    "name": "Piłkarzyki",
+    "occupied": null,
+    "lastUpdateDate": null
+}]
