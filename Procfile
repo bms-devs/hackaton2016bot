@@ -1,1 +1,1 @@
-web: node bin/wcbot.js
+worker: node bin/wcbot.js
