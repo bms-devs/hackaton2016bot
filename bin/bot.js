@@ -1,11 +1,9 @@
-# bin/bot.js
-
 'use strict';
 
 var Bot = require('slackbots');
 
 var settings = {
-  token: 'xoxb-117440560689-VvqPmvToCVQzF8yAFodajvw9',
+  token: process.env.SLACK_BOT_TOKEN,
   name: 'WC Bot'
 };
 
@@ -15,4 +13,4 @@ bot.on('start', function() {
   bot.postMessageToChannel('wc-test', 'siema heniu!');
 });
 
-bot.run();
+//bot.run();
