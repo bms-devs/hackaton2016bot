@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bms-devs/hackaton2016bot#readme",
   "dependencies": {
+    "lodash": "^4.17.2",
     "slackbots": "^0.5.3"
   }
 }
