@@ -1,0 +1,25 @@
+{
+  "name": "wcbot",
+  "version": "1.0.0",
+  "description": "pl.com.bms",
+  "main": "lib/wcbot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bms-devs/hackaton2016bot.git"
+  },
+  "keywords": [
+    "wcbot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bms-devs/hackaton2016bot/issues"
+  },
+  "homepage": "https://github.com/bms-devs/hackaton2016bot#readme",
+  "dependencies": {
+    "slackbots": "^0.5.3"
+  }
+}
