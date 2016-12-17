@@ -11,4 +11,4 @@ Based on ChuckNorris tutorial https://scotch.io/tutorials/building-a-slack-bot-w
 1. run npm install
 1. get the slack API token, as described [here](https://scotch.io/tutorials/building-a-slack-bot-with-node-js-and-chuck-norris-super-powers#create-a-new-bot-on-your-slack-organization)
 1. export acquired token as environment variable BOT_API_KEY
-1. run the application node bin\wcbot.js
+1. run the application `node bin\wcbot.js`
