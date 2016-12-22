@@ -22,5 +22,8 @@
   "dependencies": {
     "config": "^1.24.0",
     "slackbots": "^0.5.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }

@@ -8,7 +8,7 @@ var wcbot = new WcBot({
     httpsOptions: {
       host: config.get("host"),
       path: config.get("path"),
-      auth: process.env.API_AUTH
+      auth: process.env.API_AUTH || config.get("auth")
     }
 });
 

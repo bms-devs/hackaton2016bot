@@ -1,4 +1,5 @@
 {
     "host": "hackathon-heroku-app.herokuapp.com",
-    "path": "/occupied"
+    "path": "/occupied",
+    "auth": "SET_AS_ENV_VAR"
 }
