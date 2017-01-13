@@ -9,7 +9,8 @@ var wcbot = new WcBot({
       host: config.get("host"),
       path: config.get("path"),
       auth: process.env.API_AUTH || config.get("auth")
-    }
+    },
+    name: 'wcbot'
 });
 
 wcbot.run();
