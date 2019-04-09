@@ -1,5 +1,6 @@
 {
-    "host": "hackathon-heroku-app.herokuapp.com",
+    "host": "localhost",
+    "port": 80,
     "path": "/occupied",
     "auth": "SET_AS_ENV_VAR"
 }
