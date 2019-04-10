@@ -1,0 +1,13 @@
+version: '3'
+services:
+    wcbot-server:
+        image: bms/wcbot-server
+        ports:
+         - "3332:3332"
+    wcbot:
+        image: bms/wcbot
+        environment:
+         - BOT_API_KEY
+         - API_AUTH
+         - API_HOST=wcbot-server
+         - API_PORT=3332
